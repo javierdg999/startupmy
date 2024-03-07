@@ -7,6 +7,25 @@ body {
   font-family: 'Montserrat', sans-serif;
 
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  position: absolute;
+  top: calc(50% + 20px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 hr {
   max-width: 65px;
@@ -17,6 +36,7 @@ hr {
 h1 {
   font-size: 3rem; 
   color: #e2dbdb;
+  
 }
 
 .buffer {
